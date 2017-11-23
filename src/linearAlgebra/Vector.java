@@ -8,7 +8,7 @@ public class Vector {
     
     // vector size
     int m;
-    // vector itself
+    // vector itself "eventuell mit BigDecimal arbeiten"
     double[] vector;
     
     /**
