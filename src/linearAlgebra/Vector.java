@@ -15,7 +15,7 @@ public class Vector {
      * initialize 0.0 vector with length m >= 1
      * @param m 
      */
-    public Vector(int m) {
+    public Vector(int m) throws IllegalArgumentException {
     
         if (m < 1) 
             throw new IllegalArgumentException("Vector length must be >= 1!");
