@@ -18,7 +18,7 @@ public class Vector {
     public Vector(int m) throws IllegalArgumentException {
     
         if (m < 1) 
-            throw new IllegalArgumentException("Vector length must be >= 1!");
+            throw new IllegalArgumentException("Vector length has to be >= 1!");
         
         this.m = m;
         vector = new double[m];
