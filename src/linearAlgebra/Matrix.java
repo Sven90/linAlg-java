@@ -37,9 +37,15 @@ public class Matrix {
         matrix = new double[m][n];
     }
     
-    public String toString() {
+    @Override public String toString() {
          
         String s = "";
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                s = s + matrix[i][j] + " ";
+            }
+            s = s + "|";
+        }
         
         return s;
     } 
