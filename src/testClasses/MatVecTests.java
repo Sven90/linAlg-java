@@ -1,9 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package testClasses;
+
+import linearAlgebra.*;
 
 /**
  *
@@ -11,4 +8,12 @@ package testClasses;
  */
 public class MatVecTests {
     
+    public static void main (String[] args) {
+        
+        Vector a = new Vector(3);
+        Matrix b = new Matrix(4, 3);
+        
+        System.out.println(a);
+        System.out.println(b);
+    }
 }
