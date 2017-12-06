@@ -34,4 +34,11 @@ public class Vector {
         this.m = m;
         vector = new double[m];
     }
+    
+    public String toString() {
+         
+        String s = "";
+        
+        return s;
+    }
 }

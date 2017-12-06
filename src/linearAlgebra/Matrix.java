@@ -36,4 +36,11 @@ public class Matrix {
         this.n = n;
         matrix = new double[m][n];
     }
+    
+    public String toString() {
+         
+        String s = "";
+        
+        return s;
+    } 
 }
