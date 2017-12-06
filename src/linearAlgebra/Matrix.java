@@ -7,9 +7,9 @@ package linearAlgebra;
 public class Matrix {
     
     // rows, cols
-    int m, n;
+    private int m, n;
     // matrix itself
-    double[][] matrix;
+    private double[][] matrix;
     
     public Matrix(int m, int n) throws IllegalArgumentException {
         

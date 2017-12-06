@@ -7,9 +7,9 @@ package linearAlgebra;
 public class Vector {
     
     // vector size
-    int m;
+    private int m;
     // vector itself "eventuell mit BigDecimal arbeiten"
-    double[] vector;
+    private double[] vector;
     
     /**
      * initialize 0.0 vector with length m >= 1
