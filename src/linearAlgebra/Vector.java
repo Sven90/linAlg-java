@@ -12,8 +12,19 @@ public class Vector {
     private double[] vector;
     
     /**
-     * initialize 0.0 vector with length m >= 1
-     * @param m 
+     * default constructor m = 0 does mean that there is no vector, 
+     * so vector = null makes sense
+     */
+    public Vector() {
+        
+        m = 0;
+        vector = null;
+    }
+    
+    /**
+     * initialize zero vector with length m
+     * @param m
+     * @throws IllegalArgumentException 
      */
     public Vector(int m) throws IllegalArgumentException {
     

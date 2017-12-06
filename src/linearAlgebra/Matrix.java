@@ -11,6 +11,22 @@ public class Matrix {
     // matrix itself
     private double[][] matrix;
     
+    /**
+     * default constructor m = n = 0 does mean that there is no matrix, 
+     * so matrix = null makes sense
+     */
+    public Matrix() {
+        
+        m = n = 0;
+        matrix = null;
+    }
+    
+    /**
+     * initialize zero matrix with m rows and n columns
+     * @param m
+     * @param n
+     * @throws IllegalArgumentException 
+     */
     public Matrix(int m, int n) throws IllegalArgumentException {
         
         if (m < 1 || n < 1)
