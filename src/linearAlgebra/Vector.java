@@ -35,7 +35,7 @@ public class Vector {
         vector = new double[m];
     }
     
-    public String toString() {
+    @Override public String toString() {
          
         String s = "";
         
